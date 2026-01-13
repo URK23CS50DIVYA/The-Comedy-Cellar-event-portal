@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Event Registration Portal</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        /* Top Banner */
+        header {
+            background-color: #b46f14;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Main Container */
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Event Section */
+        .event-banner img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .event-details {
+            margin-top: 20px;
+        }
+
+        .event-details h2 {
+            color: #70440a;
+        }
+
+        /* Form Section */
+        .form-section {
+            margin-top: 30px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        button {
+            background-color: #9e5f0c;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #79520a;
+        }
+
+        /* Media Section */
+        .media-section {
+            margin-top: 40px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #856708;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- TOP BANNER -->
+<header>
+    <h1>THE COMEDY CELLAR </h1>
+    <p>Mike "The MIC" Hilarious</p>
+</header>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+    <!-- EVENT BANNER IMAGE -->
+    <div class="event-banner">
+        <img src="C:\Users\urk23cs5012\Downloads\banner-comedy.jpg"alt="Tech Event Banner">
+    </div>
+
+    <!-- EVENT DETAILS -->
+    <div class="event-details">
+        <h2>GET READY TO LAUGH UNTIL IT HURTS!</h2>
+        <p>
+            The Laugh Factory Brings the Heat to The Comedy Cellar for One Night Only.
+​Your Headliner: Mike "The Mic" Hilarious
+​You’ve seen his viral clips, you know his energy. Now, experience the comedic force of nature that is Mike "The Mic" Hilarious live and in person!
+​He’s bringing his razor-sharp wit, high-voltage storytelling, and brand-new, gut-busting material to the intimate setting of The Comedy Cellar on 4th St. This isn't just a comedy show; it's the kind of night out your abs will regret tomorrow from laughing so hard.
+​Don't wait for the Netflix special. Be in the room where it happens.
+        </p>
+        <p>​📅 EVENT DETAILS AT A GLANCE</p>
+        <p><b>DATE:</b> Saturday, October 26th</p>
+        <p><b>VENUE:</b> The Comedy Cellar on 4th St</p>
+        <p><b>​DOORS OPEN:</b> 7:00 PM </p>
+        <p><b>SHOWTIME:</b> 8:00 PM </p>
+
+    </div>
+
+    <!-- REGISTRATION FORM -->
+    <div class="form-section">
+        <h2>Event Registration Form</h2>
+
+        <form>
+            <label>Full Name:</label>
+            <input type="text" required>
+
+            <label>Email Address:</label>
+            <input type="email" required>
+
+            <label>Phone Number:</label>
+            <input type="number" required>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" required> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            <label>Event Type:</label>
+            <select required>
+                <option value="">-- Select Event --</option>
+                <option>MIKE "THE MIC" HILARIOUS</option>
+            </select>
+
+            <label>Comments:</label>
+            <textarea rows="4" placeholder="Enter your comments"></textarea>
+
+            <label>ID Proof Upload:</label>
+            <input type="file" required>
+
+            <input type="checkbox" required> I agree to the Terms and Conditions
+            <br><br>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </div>
+
+    <!-- MEDIA SECTION -->
+    <div class="media-section">
+        <h2>Event Promotion</h2>
+
+        <p>Promo Audio:</p>
+        <audio controls>
+            <source src="C:\Users\urk23cs5012\Downloads\Standup Comedy - Show Promo Video.mp3"type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+        <p>Promo Video:</p>
+        <video width="100%" controls>
+            <source src="C:\Users\urk23cs5012\Downloads\28664.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 THE COMEDY CELLAR | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
