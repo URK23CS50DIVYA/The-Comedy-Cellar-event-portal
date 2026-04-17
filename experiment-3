@@ -1,0 +1,208 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comedy Event Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">The Comedy Cellar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Artists</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="container-fluid bg-light p-5 text-center">
+    <h1 class="fw-bold">THE COMEDY CELLAR</h1>
+    <p class="text-muted">Mike "The Mic" Hilarious</p>
+      <a href="registration.html" class="btn btn-primary">Register Now</a>
+</div>
+
+<!-- Gallery Section -->
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Art Gallery</h2>
+  <div class="row">
+
+    <!-- Art Card 1 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+      <div class="card shadow">
+        <img src="C:\Users\urk23cs5012\Downloads\stand-up comedy.png" class="card-img-top img-fluid">
+        <div class="card-body text-center">
+          <h5 class="card-title">stand-Up Comedy</h5>
+          <p class="card-text">Experience raw, unfilteres stand-up comedy by Mike "The Mic" Hilarious with nonstop laughter and crowd interactions.</p>
+          <button class="btn btn-success">View</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Art Card 2 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+      <div class="card shadow">
+        <img src="C:\Users\urk23cs5012\Downloads\live performace.png" class="card-img-top img-fluid">
+        <div class="card-body text-center">
+          <h5 class="card-title">Live Performance</h5>
+          <p class="card-text">Enjoy high-energy live performances,audience banter, and exclusively jokes performed only at The Comedy Cellar.</p>
+          <button class="btn btn-warning">View</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Art Card 3 -->
+    <div class="col-lg-4 col-md-12 col-sm-12 p-3">
+      <div class="card shadow">
+        <img src="C:\Users\urk23cs5012\Downloads\comedy specials.png" class="card-img-top img-fluid">
+        <div class="card-body text-center">
+          <h5 class="card-title">Comedy Specials</h5>
+          <p class="card-text">Watch exclusive comedy clips, behind the scenes moments and viral stand-up highlights from the show.</p>
+          <button class="btn btn-danger">View</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="container text-center mt-5">
+  <h2 class="fw-bold">About COMEDY CELLAR</h2>
+  <p class="text-muted mt-2">
+     Experience the viral sensation Mike "The Mic" Hilarious live on stage.
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-4">
+  © 2025 THE COMEDY CELLAR | All Rights Reserved
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+registration.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comedy Event Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">The Comedy Cellar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Artists</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="container-fluid bg-light p-5 text-center">
+    <h1 class="fw-bold">THE COMEDY CELLAR</h1>
+    <p class="text-muted">Mike "The Mic" Hilarious</p>
+      <a href="registration.html" class="btn btn-primary">Register Now</a>
+</div>
+
+<!-- Gallery Section -->
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Art Gallery</h2>
+  <div class="row">
+
+    <!-- Art Card 1 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+      <div class="card shadow">
+        <img src="C:\Users\urk23cs5012\Downloads\stand-up comedy.png" class="card-img-top img-fluid">
+        <div class="card-body text-center">
+          <h5 class="card-title">stand-Up Comedy</h5>
+          <p class="card-text">Experience raw, unfilteres stand-up comedy by Mike "The Mic" Hilarious with nonstop laughter and crowd interactions.</p>
+          <button class="btn btn-success">View</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Art Card 2 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+      <div class="card shadow">
+        <img src="C:\Users\urk23cs5012\Downloads\live performace.png" class="card-img-top img-fluid">
+        <div class="card-body text-center">
+          <h5 class="card-title">Live Performance</h5>
+          <p class="card-text">Enjoy high-energy live performances,audience banter, and exclusively jokes performed only at The Comedy Cellar.</p>
+          <button class="btn btn-warning">View</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Art Card 3 -->
+    <div class="col-lg-4 col-md-12 col-sm-12 p-3">
+      <div class="card shadow">
+        <img src="C:\Users\urk23cs5012\Downloads\comedy specials.png" class="card-img-top img-fluid">
+        <div class="card-body text-center">
+          <h5 class="card-title">Comedy Specials</h5>
+          <p class="card-text">Watch exclusive comedy clips, behind the scenes moments and viral stand-up highlights from the show.</p>
+          <button class="btn btn-danger">View</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="container text-center mt-5">
+  <h2 class="fw-bold">About COMEDY CELLAR</h2>
+  <p class="text-muted mt-2">
+     Experience the viral sensation Mike "The Mic" Hilarious live on stage.
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-4">
+  © 2025 THE COMEDY CELLAR | All Rights Reserved
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
